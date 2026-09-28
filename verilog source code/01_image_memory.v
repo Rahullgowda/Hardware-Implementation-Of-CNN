@@ -19,9 +19,9 @@ module image_memory
 
     initial
     begin
-        $readmemh(
-"D:/single layer hardware cnn project/hardware/memory/input_image.mem",
-image_memory
+ $readmemh(
+    "D:/single layer hardware cnn project/test/hardware/image2.mem",
+    image_memory
 );
     end
 
